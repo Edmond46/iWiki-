@@ -1,0 +1,14 @@
+﻿mysqld.exe : 2026-10-29T14:39:28.489165Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+At line:19 char:1
++ & "$bin\mysqld.exe" --initialize-insecure --basedir="C:\Program Files ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-29T14:3...zation - start.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-10-29T14:39:28.498017Z 0 [System] [MY-013169] [Server] C:\Program Files\MySQL\MySQL Server 8.4\bin\mysqld.exe (mys
+qld 8.4.9) initializing of server in progress as process 2160
+2026-10-29T14:39:28.524947Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-10-29T14:39:28.806818Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-10-29T14:39:29.532340Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please 
+consider switching off the --initialize-insecure option.
+2026-10-29T14:39:31.273888Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
